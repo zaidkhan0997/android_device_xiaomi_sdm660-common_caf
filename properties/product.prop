@@ -2,7 +2,8 @@
 ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=7
 
-# Blur
+# Enable blurs, hidden under dev option
+persist.sys.sf.disable_blurs=1
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
 
